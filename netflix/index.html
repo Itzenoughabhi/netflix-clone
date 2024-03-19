@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix-clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <span><img width="150px" src="logo.svg" alt="netflix"></span>
+            <div class="button">
+                <button class="English">English
+                </button>
+
+                <button class="Sign">Sign in
+
+                </button>
+            </div>
+        </nav>
+
+        <div class="box">
+
+        </div>
+        <div class="content"><span>Unlimited movies,</span><span>TV shows and</span> <span>more</span>
+            <div class="cost">Starts at ₹149. Cancel anytime.</div>
+            <div class="info">Ready to watch? Enter your email to create or restart your membership.</div>
+            <input type="text" placeholder="Email address">
+            <button class="getstart">Get Started ></button>
+        </div>
+
+
+    </div>
+    <section class="banner">
+        <div>g </div>
+
+    </section>
+    <div class="layer"></div>
+    <section class="page">
+
+        <main class="option">
+            <div class="container">
+                <h3>Enjoy on your TV</h3><br>
+                <p>Watch on smart TVs, PlayStation, <br>Xbox, Chromecast,
+                    </br> Apple TV, Blu-ray players and more</p>
+                <img src="asset\computer.png" alt="">
+
+            </div>
+            <div class="container">
+                <h3>Download your shows offline</h3>
+                <p>Save your favourites easily<br> and always have something to watch</br></p>
+                <img src="asset\download.png" alt="">
+
+            </div>
+            <div class="container">
+                <h3>Watch everywhere</h3>
+                <p>Stream unlimited movies and TV shows on your<br> phone, tablet, laptop and TV.</br></p>
+                <img src="asset\bhopu.png" alt="">
+
+
+            </div>
+            <div class="container">
+                <h3>Create profiles for kids</h3>
+                <p>Send kids on adventures with their favourite<br> characters in a space made just for them </br> free
+                    with your membership</br></p>
+
+            </div>
+        </main>
+        <h1 class="sugg">Frequently Asked Questions</h1>
+        <div class="faq">
+
+            <div class="question" onclick="toggleAnswer(this)">What is Netflix?</div>
+            <div class="answer">Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+                movies, anime, documentaries and more – on thousands of internet-connected devices.<br>
+
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
+                price. There's always something new to discover, and new TV shows and movies are added every week!</div>
+        </div>
+
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(this)">How much does Netflix cost?</div>
+            <div class="answer">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for
+                one fixed monthly fee. Plans range from ₹649 to ₹149 a month. No extra costs, no contracts..</div>
+        </div>
+
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(this)">Where can I watch?</div>
+            <div class="answer"> Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the
+                web at netflix.com from your personal computer or on any internet-connected device that offers the
+                Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.<br>
+
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to
+                watch while you're on the go and without an internet connection. Take Netflix with you anywhere</div>
+        </div>
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(this)">How do I cancel?</div>
+            <div class="answer">Netflix is flexible. There are no annoying contracts and no commitments. You can easily
+                cancel your account online in two clicks. There are no cancellation fees – start or stop your account
+                anytime.</div>
+        </div>
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(this)">What can I watch on Netflix?</div>
+            <div class="answer">Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+                award-winning Netflix originals, and more. Watch as much as you want, anytime you want...</div>
+        </div>
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(this)">Is Netflix good for kids?</div>
+            <div class="answer">The Netflix Kids experience is included in your membership to give parents control while
+                kids enjoy family-friendly TV shows and films in their own space.
+                <br>
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                content kids can watch and block specific titles you don’t want kids to see.
+            </div>
+        </div>
+        <div class="endcontent">
+            <div class="endinfo">Ready to watch? Enter your email to create or restart your membership.</div>
+            <input class="endinput" type="text" placeholder="Email address">
+            <button class="endgetstart">Get Started ></button>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-paths">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">New & Popular</a></li>
+                    <li><a href="#">My List</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Select Language</button>
+            <div class="dropdown-content">
+                <a href="#">English</a>
+                <a href="#">Hindi</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
